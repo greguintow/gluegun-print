@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["es2017"],
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"downlevelIteration": true,
+		"declaration": true,
+		"skipLibCheck": true
+	}
+}
