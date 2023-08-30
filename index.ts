@@ -10,6 +10,8 @@ const times = (fn: (i: any) => any, n: number) => {
 
 export type TableStyle = Partial<CLITable.TableInstanceOptions['style']>
 
+export { Ora }
+
 export interface GluegunPrintTableOptions {
   format?: 'markdown' | 'lean' | 'default'
   style?: TableStyle
